@@ -4,11 +4,10 @@ h1 {font-family: Gabriola, Constantia, serif; font-size: 45px; text-align: cente
 
 table {border-collapse: separate;}
 
-td {text-align: center;}
+td, .image {text-align: center;}
 
 ul {text-align: left}
 
-.image {text-align: center;}
 
 /* 	
 
