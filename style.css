@@ -1,0 +1,22 @@
+body {background: url(file:///D:/коледж/html/site/images/dark-gray-buds.png) fixed #696969;}
+
+h1 {font-family: Gabriola; font-size: 45px; font-weight: bold; text-align: center}
+
+table {border-collapse: separate;}
+
+td {text-align: center;}
+
+ul {text-align: left}
+
+.image {text-align: center;}
+
+/* 	
+
+a: visited {color: #000000}
+
+a: active {color: #FF0000}
+
+a: link {color: #000000}
+
+*/
+
