@@ -6,15 +6,13 @@ table {border-collapse: separate;}
 
 td, .image {text-align: center;}
 
-.nav > li {background-color: #696969;}
+.nav > li { display: inline-block; background-color: #696969; padding: 3px; line-height: 1;}
 
-/* 	
+.nav > li :hover {box-shadow: 4px 6px 10px 4px #aaaaaa; text-decoration: underline;}
 
-a: visited {color: #000000}
+:visited {color: #000000}
 
-a: active {color: #FF0000}
+:active {color: #ff0000}
 
-a: link {color: #000000}
-
-*/
+a{color: #000000}
 
