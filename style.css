@@ -6,7 +6,7 @@ table {border-collapse: separate;}
 
 td, .image {text-align: center;}
 
-ul.nav > li { display: inline-block; background-color: #696969; padding: 3px; line-height: 1;}
+ul.nav > li {display: inline-block; background-color: #696969; padding: 3px; line-height: 1;}
 
 ul.nav > li :hover {box-shadow: 4px 6px 10px 4px #aaaaaa; text-decoration: underline;}
 
