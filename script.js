@@ -15,5 +15,3 @@ for(elem of listElement){
 for(elem of listElement){
 	elem.onmouseout = mouseoff;
 };
-
-console.log(listElement);
