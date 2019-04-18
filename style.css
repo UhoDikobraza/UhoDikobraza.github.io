@@ -8,9 +8,11 @@ td, .image {text-align: center;}
 
 ul.nav li, #button { display: inline-block; background-color: #696969; padding: 3px;  line-height: 1; margin: 3px; border-radius: 15px;}
 
-ul.nav li :hover {box-shadow: 4px 6px 10px 4px #aaaaaa;}
+/*ul.nav li :hover {box-shadow: 4px 6px 10px 4px #aaaaaa;}
 
-#button :hover {box-shadow: 4px 6px 10px 4px #aaaaaa;}
+#button :hover {box-shadow: 4px 6px 10px 4px #aaaaaa;}*/
+
+nav li{list-style: none;}
 
 a:visited {color: #000000}
 
