@@ -1,3 +1,5 @@
+html{font-size: 12px;}
+
 body {background: url(images/dark-gray-buds.png) fixed #696969;}
 
 h1 {font-family: Gabriola, Constantia, serif; font-size: 45px; text-align: center}
@@ -74,7 +76,7 @@ nav img{display: none;}
 
 	nav:hover ul{display: block;}
 
-	nav li {display: block;}
+	nav li {display: block; font-size: 1.3rem;}
 
 	nav img{display: block;}
 
