@@ -42,9 +42,7 @@ a{color: #000000}
 .main{
 	grid-area: main;
 	border: 1px solid;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
+	padding: 5px;
 	min-height: 500px;
 }
 
@@ -54,4 +52,30 @@ a{color: #000000}
 	grid-row-gap: 5px;
 }
 
+nav img{display: none;}
+
 #active{font-weight: bold;}
+
+@media(max-width: 1300px){
+	.nv{
+		border: none;
+		width: 150px;
+	}
+
+	.footer{display: none;}
+
+	nav ul{
+		display: none;
+		background-color: #696969;
+		margin-top: -10px;
+		padding: 20px;
+		text-align: left;
+	}
+
+	nav:hover ul{display: block;}
+
+	nav li {display: block;}
+
+	nav img{display: block;}
+
+}
