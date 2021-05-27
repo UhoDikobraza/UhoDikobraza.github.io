@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ua" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ІНДЗ</title>
+    <style>
+      #main{
+        display: flex;
+        height: 550px;
+      }
+      #control{
+        display: flex;
+        justify-content: space-around;
+      }
+      #move{
+        height: 150px;
+        position: absolute;
+        top: 235px;
+        left: 650px;
+      }
+      .cont{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <img src="images/red.png" alt="movable item" id="move">
+    </div>
+    <hr>
+    <div id="control">
+      <img src="images/up.png" alt="up" class="cont" id="up">
+      <img src="images/right.png" alt="right" class="cont" id="right">
+      <img src="images/left.png" alt="left" class="cont" id="left">
+      <img src="images/down.png" alt="down" class="cont" id="down">
+    </div>
+
+    <script type="text/javascript">
+      let up = $("#move").position().top
+      let side = $("#move").position().left
+
+      $("#up").click(function(){
+        up -= 50
+        $("#move").css("top", up + "px")
+        //$("#red").animate({top: move})
+      })
+
+      $("#right").click(function(){
+        side += 50
+        $("#move").css("left", side + "px")
+      })
+
+      $("#left").click(function(){
+        side -= 50
+        $("#move").css("left", side + "px")
+      })
+
+      $("#down").click(function(){
+        up += 50
+        $("#move").css("top", up + "px")
+      })
+    </script>
+  </body>
+</html>
