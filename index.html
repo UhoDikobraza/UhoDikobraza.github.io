@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ua" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <img src="1.png" style="left: 350px; top: 45px; position: absolute">
+      <img src="2.png"  style="left: 20px; top: 450px; position: absolute">
+      <img src="3.png" style="left: 1200px; top: 120px; position: absolute">
+      <img src="red.png" id="red" style="left: 600px; top: 500px; position: absolute">
+    </div>
+    <button type="button" name="button" id="but5">Animate</button>
+
+    <script type="text/javascript">
+      $("#but5").click(() => $("#red").animate({left: "350px", top: "45px"}, () => {
+        $("#red").animate({left: "20px", top: "450px"}, () => {
+          $("#red").animate({left: "1200px", top: "120px"}, () => {
+            $("#red").animate({left: "600px", top: "500px"})
+          })
+        })
+      }))
+    </script>
+  </body>
+</html>
